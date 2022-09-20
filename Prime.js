@@ -11,6 +11,7 @@ function Prime(num){
 	
 }
 let ans = Prime(13);
+
 if(ans === true){
 	console.log("Prime");
 }else{
