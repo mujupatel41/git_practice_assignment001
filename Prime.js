@@ -1,16 +1,17 @@
-function Prime(number){
-	let count_number = 0;
-	for(let i = 0;i<number;i++){
-		if(number%i==0){
-			count_number++;
+function Prime(num){
+	let count = 0;
+	for(let i = 0;i<num;i++){
+		if(num%i==0){
+			count++;
 		}
 	}
-	if(count_number === 2){
+	if(count === 2){
 		return true;
-	}return false;
+	}
 	
 }
-let ansr = Prime(13);
+let ans = Prime(13);
+
 if(ans === true){
 	console.log("Prime");
 }else{
